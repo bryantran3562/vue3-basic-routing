@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link :to="{ name: 'Home'}">Home</router-link> |
-    <router-link :to="{name: 'About'}">About</router-link> |
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
     <!-- BT - Adding new route - Step 3: Add router link to display a link to your new
               :to="{ name: 'Emails'}"
               :to - v-binding
